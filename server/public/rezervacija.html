@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+    <TITLE>Rezervacija</TITLE>
+    <link rel="stylesheet" type="text/css" href="rezervacija.css">
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+    <div class="meni">
+            <img class="logo" src="slike/logo2.png" alt="slika se ne moze ucitati" title="logo">
+            <div class="nav">
+                <ul>
+                    <li><a href="pocetna.html">Početna</a></li>
+                    <li><a href="sale.html">Sale</a></li>
+                    <li><a href="unos.html">Unos</a></li>
+                    <li><a class="active" href="rezervacija.html">Rezervacije</a></li>
+                    <li><a href="">Osobe</a></li>
+                </ul>
+            </div>
+    </div>
+    <div class="sadrzaj">
+        <br>
+        <form class="forma">
+            <div class="poljaforme">
+                <div class="dropdown">
+                        <label for="sala" class="sala"></label>
+                        <select id="sala"  onchange="izmjena()">
+                            <option value="0-01" selected='salected'>0-01</option>
+                            <option value="0-02">0-02</option>
+                            <option value="0-03">0-03</option>
+                            <option value="0-04">0-04</option>
+                            <option value="0-05">0-05</option>
+                            <option value="0-06">0-06</option>
+                            <option value="0-07">0-07</option>
+                            <option value="0-08">0-08</option>
+                            <option value="0-09">0-09</option>
+                            <option value="1-01">1-01</option>
+                            <option value="1-02">1-02</option>
+                            <option value="1-03">1-03</option>
+                            <option value="1-04">1-04</option>
+                            <option value="1-05">1-05</option>
+                            <option value="1-06">1-06</option>
+                            <option value="1-07">1-07</option>
+                            <option value="1-08">1-08</option>
+                            <option value="1-09">1-09</option>
+                            <option value="VA1">VA1</option>
+                            <option value="VA2">VA2</option>
+                            <option value="MA">MA</option>
+                            <option value="EE1">EE1</option>
+                            <option value="EE2">EE2</option>
+                        </select>
+                </div>
+                       
+                <div class="checkbox">
+                    <input id="checkbox" type="checkbox" name="periodicno">periodično<br>
+                </div>
+                <div class="red">
+                    <label for="pocetak">Početak</label>
+                    <input id="pocetak" type="time" name="pocetak" value="00:00" onchange="izmjena()"  >
+                </div>
+                <div class="red">
+                    <label for="kraj">Kraj</label>
+                    <input id="kraj" type="time" name="kraj"  value="00:05" onchange="izmjena()">
+                </div>
+            </div>
+        </form>
+
+        <div class="tabela">
+            <p id="mjesec">Novembar</p>
+            <table id="kalendar">
+                <tr class="redtabele">
+                    <th id="pretporavnanje">PON</th>
+                    <th>UTO</th>
+                    <th>SRI</th>
+                    <th>ČET</th>
+                    <th>PET</th>
+                    <th>SUB</th>
+                    <th id="sljedporavnanje">NED</th>
+                </tr>
+            </table>
+        </div>
+        <div class="dugmad">
+        <button id="prethodni" type="button" onclick="prethodni()">Prethodni</button>
+        <button id="sljedeci" type="button" onclick="sljedeci()">Sljedeći</button>
+        </div>
+    </div>
+    <script src="pozivi.js"></script>
+    <script src="kalendar.js"></script>
+    <script src="rezervacija.js"></script>
+
+</body>
+</html>

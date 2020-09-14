@@ -1,0 +1,104 @@
+{
+    "periodicna": [
+        {
+            "dan": "1",
+            "semestar": "zimski",
+            "pocetak": "12:00",
+            "kraj": "14:00",
+            "naziv": "1-02",
+            "profesor": "prof. Vensada"
+        },
+        {
+            "dan": "0",
+            "semestar": "zimski",
+            "pocetak": "10:00",
+            "kraj": "12:00",
+            "naziv": "0-02",
+            "profesor": "prof. Vensada"
+        },
+        {
+            "dan": "2",
+            "semestar": "zimski",
+            "pocetak": "09:00",
+            "kraj": "10:30",
+            "naziv": "0-01",
+            "profesor": "prof. Vensada"
+        },
+        {
+            "dan": "3",
+            "semestar": "ljetni",
+            "pocetak": "18:00",
+            "kraj": "19:00",
+            "naziv": "VA1",
+            "profesor": "prof. Vensada"
+        },
+        {
+            "dan": "4",
+            "semestar": "ljetni",
+            "pocetak": "15:00",
+            "kraj": "16:00",
+            "naziv": "VA2",
+            "profesor": "prof. Vensada"
+        },
+        {
+            "dan": "5",
+            "semestar": "ljetni",
+            "pocetak": "15:30",
+            "kraj": "17:30",
+            "naziv": "MA",
+            "profesor": "prof. Vensada"
+        },
+        {
+            "dan": "6",
+            "semestar": "zimski",
+            "pocetak": "12:30",
+            "kraj": "14:00",
+            "naziv": "EE1",
+            "profesor": "prof. Vensada"
+        }
+    ],
+    "vanredna": [
+        {
+            "datum": "06.11.2019",
+            "pocetak": "12:00",
+            "kraj": "14:00",
+            "naziv": "1-02",
+            "profesor": "prof. Vensada"
+        },
+        {
+            "datum": "08.11.2020",
+            "pocetak": "12:00",
+            "kraj": "14:00",
+            "naziv": "1-02",
+            "profesor": "prof. Vensada"
+        },
+        {
+            "datum": "05.10.2019",
+            "pocetak": "10:00",
+            "kraj": "12:00",
+            "naziv": "0-02",
+            "profesor": "prof. Vensada"
+        },
+        {
+            "datum": "13.12.2019",
+            "pocetak": "09:00",
+            "kraj": "10:30",
+            "naziv": "0-01",
+            "profesor": "prof. Vensada"
+        },
+        {
+            "datum": "06.11.2019",
+            "pocetak": "18:00",
+            "kraj": "19:00",
+            "naziv": "VA1",
+            "profesor": "prof. Vensada"
+        },
+        {
+            "datum": "10.11.2019",
+            "pocetak": "15:00",
+            "kraj": "16:00",
+            "naziv": "VA2",
+            "profesor": "prof. Vensada"
+        }        
+    ]
+}

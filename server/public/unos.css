@@ -1,0 +1,182 @@
+a.active{
+    text-decoration-line: none;
+}
+
+body {
+    max-width: 700px;
+    margin: 10px auto;
+    width: 90%;
+}
+
+input {
+    width: 50%;
+}
+
+label {
+    color: white;
+    width: 50%;
+}
+
+.forma {
+    width: 80%;
+    margin: 5em auto;
+}
+
+.meni .nav{
+    background-color: black;
+    height: 90px;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+}
+
+.meni ul {
+    bottom: .5em;
+    left: .5em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.meni ul li {
+    display: inline;    
+    padding: 1em 0.5em;
+}
+
+.meni ul li a{
+    color: white;
+}
+
+.meni .logo {
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;  
+    margin: auto;
+    margin-bottom: -25px;
+    z-index: 1000;
+}
+
+.sadrzaj {
+    background-color: black;
+    margin-top: 1em;
+    height: 600px;
+    box-sizing: border-box;
+    padding-top: 2em;
+}
+
+.title {
+    color: white;
+    float: left;
+    width: 8em;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.submit {
+    width: 40%;
+    margin: 0 30%;
+}
+
+.submit input{
+    width: 100%;
+    margin: 0;
+    background-color: purple;
+    color: white;
+    border-color: black;
+}
+
+.red {
+    border-bottom: 1px solid #efefef;
+    margin: 10px auto;
+    padding-bottom: 10px;
+    width: 80%;
+    border: none;
+}
+
+@media all and (max-width: 600px){
+    label {
+        width: 100%;
+        text-align: left;
+        margin: 0 -10px 1em auto;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .title {
+        color: white;
+        width: 8em;
+        text-align: left;
+        padding-right: 10px;
+    }
+
+    .meni {
+        height: auto;
+        padding: 5px;
+    }
+
+    .meni .nav{
+        background-color: black;
+        margin: auto;
+        z-index: 0;
+        height: 12em;
+    }
+    
+    .meni ul {
+        position: relative;
+        list-style-type: none;
+        margin-top: 5px;
+        margin-bottom: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        flex-wrap: wrap;
+        clear: both;
+    }
+
+    
+    .meni ul li a{
+        color: white;
+    }
+
+    .meni ul li{
+        margin: 10px;
+        padding: 0;
+    }
+    
+    .meni .logo {
+        display: block;
+        position: relative;
+        width: 50px;
+        height: 50px;  
+        margin: auto;
+        margin-bottom: -25px;
+        z-index: 1000;
+    }
+    
+    .prvired {
+        height: 2.5em;
+        display: none;
+    }
+    
+    td {
+        width: 20%;
+        min-width: 20px;
+    }
+
+    ul a{
+        padding: 10px;
+    }
+
+    .sadrzaj {
+        background-color: black;
+        margin-top: 2em;
+        height: 600px;
+        box-sizing: border-box;
+        padding-top: 2em;
+    }
+
+}

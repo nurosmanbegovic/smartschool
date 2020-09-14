@@ -1,0 +1,211 @@
+a.active{
+    text-decoration-line: none;
+}
+
+body {
+    max-width: 700px;
+    margin: 10px auto;
+    width: 90%;
+}
+
+.headerSprat {
+    background-color: rebeccapurple;
+    color: white;
+    text-align: right;
+    padding-right: .5em;
+
+}
+
+.headerSprat.glavni {
+    text-align: center;
+    height: 40px;
+}
+
+.headerRedni {
+    background-color: purple;
+    color: white;
+    width: 20%;
+    text-align: left;
+    padding-left: .5em;
+}
+
+.sala.kancelarija {
+    background-color: lightslategrey;
+    color: white;
+}
+
+.meni .nav{
+    background-color: black;
+    height: 90px;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+}
+
+.meni ul {
+    bottom: .5em;
+    left: .5em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.meni ul li {
+    display: inline;    
+    padding: 1em 0.5em;
+}
+
+.meni ul li a{
+    color: white;
+}
+
+.meni .logo {
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;  
+    margin: auto;
+    margin-bottom: -25px;
+    z-index: 1000;
+}
+
+.prvired {
+    height: 2.5em;
+}
+
+.sadrzaj {
+    background-color: black;
+    margin-top: 1em;
+    height: 700px;
+    box-sizing: border-box;
+    padding-top: 2em;
+}
+
+.sala {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.sala.slobodnaSala {
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
+
+.tabelaSala th.headerRedni{
+    width: 20%;
+}
+
+.tabelaSala th.headerSprat {
+    width: 15%;
+}
+
+.tabelaSala th.headerSprat:last-child {
+    width: 20%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    background-color: black;
+  }
+
+.tabelaSala {
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+    height: 90%;
+    padding-top: 2em;
+}
+
+tr {
+    height: 2em;
+}
+
+.sala.zauzetaSala {
+    background-color: maroon;
+    color: white;
+    text-align: center;
+}
+
+@media all and (max-width: 600px){
+    
+    .headerSprat {
+        display: none;    
+    }
+    
+    .headerSprat.glavni {
+        display: none;
+    }
+    
+    .headerRedni {
+        display: none;
+    }
+
+    .meni {
+        height: auto;
+        padding: 5px;
+    }
+
+    .meni .nav{
+        background-color: black;
+        margin: auto;
+        z-index: 0;
+        height: 12em;
+    }
+    
+    .meni ul {
+        position: relative;
+        list-style-type: none;
+        margin-top: 5px;
+        margin-bottom: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        flex-wrap: wrap;
+        clear: both;
+    }
+
+    
+    .meni ul li a{
+        color: white;
+    }
+
+    .meni ul li{
+        margin: 10px;
+        padding: 0;
+    }
+    
+    .meni .logo {
+        display: block;
+        position: relative;
+        width: 50px;
+        height: 50px;  
+        margin: auto;
+        margin-bottom: -25px;
+        z-index: 1000;
+    }
+    
+    .prvired {
+        height: 2.5em;
+        display: none;
+    }
+    
+    td {
+        width: 20%;
+        min-width: 20px;
+    }
+
+    ul a{
+        padding: 10px;
+    }
+
+    .sadrzaj {
+        background-color: black;
+        margin-top: 2em;
+        height: 700px;
+        box-sizing: border-box;
+        padding-top: 2em;
+    }
+}

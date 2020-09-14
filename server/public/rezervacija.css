@@ -1,0 +1,353 @@
+a.active{
+    text-decoration-line: none;
+}
+
+body {
+    margin: 10px auto;
+    width: 80%;
+}
+
+.prazan > div {
+    background-color: black;
+    border-bottom: black;
+}
+
+.prazan {
+    background-color: black ;
+}
+
+button {
+    background-color: #3D155B;
+    color: salmon;
+    border: .2em solid #2F094C;
+    width: 10em;
+    height: 5em;
+    margin: 1em;
+}
+
+button:disabled {
+    background-color: rgb(85, 83, 83);
+    color: black;
+    border: .2em solid black;
+}
+
+.forma {
+    box-sizing: border-box;
+    border: purple;
+    border-style: solid;
+    border-width: 3px ;
+    background-color: white;
+    color: purple;
+    margin: 1em auto;
+    height: 80px;
+    width: 100%;
+    padding: 5px;
+}
+
+label {
+    clear: both;
+    float: left;
+    margin-right: 15px;
+}
+
+.meni .nav{
+    background-color: black;
+    height: 90px;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+}
+
+.meni ul {
+    bottom: .5em;
+    left: .5em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.meni ul li {
+    display: inline;    
+    padding: 1em 0.5em;
+}
+
+.meni ul li a{
+    color: white;
+}
+
+.meni .logo {
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;  
+    margin: auto;
+    margin-bottom: -25px;
+    z-index: 1000;
+}
+
+.sadrzaj {
+    background-color: black;
+    margin-top: 1em;
+    box-sizing: border-box;
+    padding-bottom: 1em;
+}
+
+#sala {
+    width: 6em;
+    color: purple;
+}
+
+.red {
+    width: 25%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.dropdown {
+    box-sizing: border-box;
+    width: 20%;
+    float: left;
+}
+
+.checkbox {
+    width: 20%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.poljaforme {
+    padding-top: 1em;
+}
+
+table { 
+    border-spacing: 1em;
+    border-collapse: separate;
+}
+
+
+.tabela {
+    color: white;
+    background-color: black;
+    border-spacing: 2em;
+    border-collapse: separate;
+    width: 80%;
+    border: 1px solid white;
+    margin: auto;
+    padding: 1em;
+}
+
+.tabela td {
+    height: 6em;
+    box-sizing: border-box;
+    padding: 0 0 10px 0;
+    vertical-align: top;
+    margin: 5em 5em;
+}
+
+.tabela td.zauzeta{
+    background-color: maroon;
+    border: 1px solid purple;
+}
+
+.tabela td.slobodna{
+    background-color: teal;
+    border: 1px solid purple;
+}
+
+th {
+    background-color: purple;
+    box-sizing: border-box;
+    color: white;
+    border: 0.2em solid #3D155B;
+    width: 9em;
+    margin: .5em;
+    height: 5em;
+}
+
+td div{
+    border-bottom: 1px solid purple;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    height: 4em;
+    margin: auto;
+    pointer-events: none;
+}
+
+.tabela p {
+    font-size: 2em;
+}
+
+
+.dugmad {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+@media all and (max-width: 600px) {
+    .meni {
+        height: auto;
+        padding: 5px;
+    }
+
+    .meni .nav{
+        background-color: black;
+        margin: auto;
+        z-index: 0;
+        height: 12em;
+    }
+    
+    .meni ul {
+        position: relative;
+        list-style-type: none;
+        margin-top: 5px;
+        margin-bottom: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        flex-wrap: wrap;
+        clear: both;
+    }
+    
+    .meni ul li a{
+        color: white;
+    }
+
+    .meni ul li{
+        margin: 10px;
+        padding: 0;
+    }
+    
+    .meni .logo {
+        display: block;
+        position: relative;
+        width: 50px;
+        height: 50px;  
+        margin: auto;
+        margin-bottom: -25px;
+        z-index: 1000;
+    }
+    
+    .prvired {
+        height: 2.5em;
+        display: none;
+    }
+    
+    td {
+        width: 20%;
+        min-width: 20px;
+    }
+
+    ul a{
+        padding: 10px;
+    }
+    
+    table {
+        width: 30%;
+        border-spacing: 1em;
+        border-collapse: separate;
+    }
+
+    .sadrzaj {
+        background-color: black;
+        margin-top: 2em;
+        box-sizing: border-box;
+        padding-top: 2em;
+        min-width: 400px;
+    }
+
+    .redtabele>*{
+        display: block;
+        width: 8em;
+        height: 5em;
+    }
+
+    .redtabele {
+        display: table-cell;
+        padding-top: 0;
+    }
+
+    .prikazi>* {
+        display: block;
+        width: 8em;
+        height: 5em;
+        margin: 0;
+    }
+
+    .prikazi {
+        display: table-cell;
+    }
+
+    .sakrij {
+        display: none;
+    }
+
+    .tabela td {
+        margin: 1em;
+    }
+    
+    button {
+        background-color: #3D155B;
+        color: salmon;
+        border: .2em solid #2F094C;
+        width: 8em;
+        height: 5em;
+        margin: 1em;
+    } 
+    
+    .red {
+        width: 25%;
+        box-sizing: border-box;
+        float: left;
+    }
+        
+    .tabela {
+        color: white;
+        background-color: black;
+        border-spacing: 2em;
+        border-collapse: separate;
+        width: 80%;
+        border: 1px solid white;
+        margin: auto;
+        padding: 0.5em;
+    }
+    
+    .tabela td {
+        height: 5em;
+        box-sizing: border-box;
+        padding: 0 0 10px 0;
+        vertical-align: top;
+        margin: .5em .5em;
+    }   
+    
+    th {
+        background-color: purple;
+        box-sizing: border-box;
+        color: white;
+        border: 0.2em solid #3D155B;
+        width: 8em;
+        margin: .5em;
+        height: 5em;
+    }
+    
+    td div{
+        border-bottom: 1px solid purple;
+        box-sizing: border-box;
+        background-color: white;
+        color: black;
+        height: 3em;
+        margin: auto;
+    }
+    
+    .tabela p {
+        font-size: 2em;
+    }
+   
+
+}
